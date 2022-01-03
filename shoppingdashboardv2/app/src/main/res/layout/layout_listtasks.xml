@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/listtasks_rv_RelLay"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <TextView
+        android:id="@+id/task_nameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@+id/iconTV"
+        android:text="name"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/task_locationTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@+id/task_nameTV"
+        android:text="location"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/task_starttime_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iconTV"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="8dp"
+        android:text="start time" />
+
+    <TextView
+        android:id="@+id/task_endtime_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/task_starttime_TV"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="8dp"
+        android:text="end time" />
+
+    <TextView
+        android:id="@+id/task_numpeople_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/task_nameTV"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_toEndOf="@+id/iconTV"
+        android:text="number of people" />
+
+    <TextView
+        android:id="@+id/iconTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="icon text"
+        android:textSize="30sp" />
+
+</RelativeLayout>
